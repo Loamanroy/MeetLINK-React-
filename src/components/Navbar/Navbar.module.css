@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.nav {
+    grid-area: n;
+}
+
+.nav a {
+    display: block;
+    font-family: 'Merriweather', serif;
+    color: #285473;
+    margin: 10px 10px 0 40px;
+    padding: 10px 0 10px 10px;
+}
+
+.nav .active {
+    background-color: #4a76a8;
+    color: #fff;
+}
+
+
+.nav__item {
+    text-decoration: none;
+}
+
+
+.nav__item:hover {
+    transition: .5s ease-in-out;
+    background-color: #4a76a8;
+    color: #fff;
+}
+
+.friendlist__wrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.friendlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 0 0;
+    padding: 10px 0 10px 0;
+}
+.friendlist img {
+    max-width: 100px;
+    border-radius: 10px;
+}
+
+.friendlist__wrapper p{
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.friendlist__wrapper li{
+    text-align: center;
+}
+
+.friendlist__item {
+    font-size: 18px;
+    margin-top: 10px;
+}

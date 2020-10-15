@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Rhodium';
+    src: url("./../../fonts/RhodiumLibre-Regular.ttf") format("truetype");
+}
+
+.header {
+    grid-area: h;
+    background-color: #285473;
+    padding: 10px 10px;
+    border-bottom: 1px solid black;
+}
+
+.header__logo {
+    margin-top: 10px;
+    padding-left: 20px;
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    font-family: Rhodium;
+}
+
+
+.header__row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+
+.header__menu ul {
+    display: flex;
+}
+
+.header__menu li {
+    font-size: 18px;
+    color: #fff;
+    padding: 0 20px 0 0;
+}
+
+.header__menu li:hover {
+    transition: 1s;
+    opacity: 70%;
+}

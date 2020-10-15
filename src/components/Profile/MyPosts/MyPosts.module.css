@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+.posts__wrapper {
+    color: black;
+    padding-top: 50px;
+}
+
+.posts__title {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 24px ;
+    font-family: 'Merriweather', serif;
+}
+
+.posts__inputs {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.posts__input {
+    resize: none;
+    font-family: 'Merriweather', serif;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 0 50px 10px;
+    width: 100%;
+    background-color: #285473;
+    color: #fff;
+    border: 1px solid black;
+}
+.posts__input::placeholder {
+    color: #fff;
+    opacity: 40%;
+}
+
+.posts__btn {
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+    margin-left: 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px;
+    background-color: greenyellow;
+}
+

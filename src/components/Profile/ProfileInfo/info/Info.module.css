@@ -1,0 +1,49 @@
+
+@font-face {
+    font-family: 'Cinzel';
+    src: url("./../../../../fonts/Cinzel-Regular.ttf");
+}
+
+
+
+.content {
+    font-family: 'Cinzel';
+}
+
+.content img {
+    display: block;
+    max-height: 200px;
+    width: 100%;
+}
+
+.profile__row {
+    border: 1px solid black;
+    align-items: center;
+    padding: 10px 0;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.profile__desc {
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-left: 50px;
+}
+
+.description {
+    margin-left: 50px;
+}
+
+.profile__desc img {
+    max-width: 100px;
+}
+
+.profile__desc p {
+    margin-top: 10px;
+}
+
+.profile__name {
+    font-size: 24px;
+}
